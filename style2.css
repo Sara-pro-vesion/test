@@ -1,0 +1,60 @@
+.parent {
+  background-color:#23424A;
+  width:100%;
+  margin:0;
+  height: auto;
+}
+.child {
+  color:white;
+  width:50%;
+  padding:7rem;
+}
+h1 {
+  font-size:3rem;
+  font-weight:700
+}
+p {
+  font-size:1.2rem;
+  font-weight:400;
+}
+.btn {
+  background-color:#38CFD9;
+  color:#23424A;
+  font-size:1.3rem;
+  font-weight:800;
+  border:none;
+  border-radius:2rem;
+  padding:1rem;
+  cursor: pointer;
+} 
+.row {
+  display:flex;
+  margin-left:6rem;
+  padding:2rem;
+  text-align:center;
+ 
+}
+.col h2{
+  font-size:2rem;
+}
+.col p {
+  font-size:1.3rem;
+}
+.center {
+  width:80rem;
+}
+.row2 {
+  display:flex;
+  margin-left:9rem;
+  padding:2rem;
+  text-align:center;
+  width:60rem;
+  gap:5rem;
+  color:#FFFFFF;
+}
+.under {
+  width:100%;
+   background-color:#136C72;
+  padding:2rem;
+  
+}
