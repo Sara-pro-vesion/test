@@ -32,7 +32,22 @@ p {
   margin-left:6rem;
   padding:2rem;
   text-align:center;
- 
+  flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+  .parent {
+    flex-direction: column;
+    align-items: center;
+  }
+  .child {
+    width: 100%;
+    padding: 2rem;
+  }
+  .row {
+    margin-left: 0;
+    width: 100%;
+    justify-content: center;
+  }
 }
 .col h2{
   font-size:2rem;
@@ -51,6 +66,7 @@ p {
   width:60rem;
   gap:5rem;
   color:#FFFFFF;
+  flex-wrap: wrap;
 }
 .under {
   width:100%;
